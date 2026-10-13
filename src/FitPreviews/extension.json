@@ -1,0 +1,13 @@
+{
+  "id": "io.github.jiwenjimiran.fit-previews",
+  "name": "Fit Previews",
+  "version": "1.0.0",
+  "description": "Fit video covers, animated previews, and scrub frames inside thumbnails without cropping.",
+  "author": "jiwenji",
+  "url": "https://github.com/jiwenjimiran/cove_fit_previews",
+  "kind": "extension",
+  "categories": ["ui", "style"],
+  "minCoveVersion": "1.5.1",
+  "entryDll": "Cove.FitPreviews.dll",
+  "cssBundle": "assets/fit-previews.css"
+}

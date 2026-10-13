@@ -1,0 +1,9 @@
+/* Override Cove's inline fit preference only on video thumbnail media.
+   The direct child img is the scrub frame; badge images stay unchanged. */
+.video-card-preview .video-card-preview-image,
+.video-card-preview .video-card-preview-video,
+.video-card-preview > img {
+  object-fit: contain !important;
+  object-position: center !important;
+  background-color: #000;
+}
